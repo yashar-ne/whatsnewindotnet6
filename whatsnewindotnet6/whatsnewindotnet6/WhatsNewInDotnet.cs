@@ -1,10 +1,5 @@
 ﻿using System;
 
-class WhatsNewInDotnet
-{
-
-
-
 
     // Record types are useful syntactic sugar for normal classes with some
     // extras. Consider following class:
@@ -26,6 +21,9 @@ class WhatsNewInDotnet
             return $"{GetType().Name} {{ Name = {Name}, Address = {Address} }}";
         }
     }
+
+
+
 
 
 
@@ -87,6 +85,9 @@ class WhatsNewInDotnet
 
 
 
+
+class WhatsNewInDotnet
+{
     static void Main()
     {
         // 1. Instantiation
